@@ -1,0 +1,80 @@
+body, html{
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+    position: relative;
+}
+
+.conteudo{
+    background: white;
+    text-align: justify;
+    color: #535252;
+    padding: 50px 80px;
+    display: flex;
+    align-items: baseline;
+}
+
+.conteudo table {
+    flex: 1;
+    display: flex;
+    align-items: right;
+}
+
+h2 {
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #3a3939;
+
+}
+
+h3 {
+    margin-left: 50px;
+    text-transform: uppercase;
+    color: #3a3939;
+}
+
+p {
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+/* efeito parallax */ 
+.caixa1 {
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(/imgs/filmes/nausicaa.jpeg); 
+}
+
+.titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+span {
+    color: white;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.video {
+    text-align: center;
+}
+
+table {
+    margin: 40px 5px 10px 50px;
+    font-size: 30px;
+
+}
