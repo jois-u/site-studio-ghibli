@@ -11,8 +11,7 @@ body, html{
     text-align: justify;
     color: #535252;
     padding: 50px 80px;
-    display: flex;
-    align-items: baseline;
+    display: flex;  
 }
 
 .conteudo table {
@@ -25,11 +24,10 @@ h2 {
     margin-left: 20px;
     text-transform: uppercase;
     color: #3a3939;
-
 }
 
 h3 {
-    margin-left: 50px;
+    margin-left: 75px;
     text-transform: uppercase;
     color: #3a3939;
 }
@@ -49,7 +47,6 @@ p {
     background-position: center;
     background-attachment: fixed;
     position: relative;
-    background-image: url(/imgs/filmes/nausicaa.jpeg); 
 }
 
 .titulo {
@@ -67,6 +64,7 @@ span {
     font-size: 25px;
     letter-spacing: 5px;
     text-transform: uppercase;
+
 }
 
 .video {
@@ -74,7 +72,17 @@ span {
 }
 
 table {
-    margin: 40px 5px 10px 50px;
+    margin: 40px 5px 10px 75px;
     font-size: 30px;
+    line-height: 70px;
+    padding: 10px 20px;
+    width: 10px;
+}
 
+.sinopse {
+    margin-top: 150px;
+}
+
+.texto {
+    width: 1200px;
 }
