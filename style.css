@@ -6,6 +6,42 @@ body, html{
 
 }
 
+ /* extra small devices */
+ @media (max-width: 575.98px) { 
+.imagens {
+       width: 100%;
+       height: 400px;
+    }
+ }
+
+
+/* small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.imagens {
+        width: 100%;
+        height: 500px;
+    }
+ }
+
+
+/* medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.imagens {
+        width: 100%;
+        height: 600px;
+    }
+ }
+
+/* Large nd extra large devices */
+@media (min-width: 992px){
+.imagens { 
+        width: 100%;
+        height: 1000px;
+    }
+ }
+
+
+
 h1 {
     margin: 0;
     background-color:#b9d3ac;
@@ -34,7 +70,7 @@ h3 {
 }
 
 /* efeito parallax */ 
-.caixa1, .caixa2, .caixa3, .caixa4 {
+.caixa1 {
     height: 100%;
     opacity: 0.7;
     background-repeat: no-repeat;
@@ -66,4 +102,3 @@ h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
 }
-
